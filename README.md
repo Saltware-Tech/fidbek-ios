@@ -11,7 +11,7 @@ Binary Swift Package distribution.
 In Xcode:
 
 1. `File > Add Package Dependencies...`
-2. Enter: `git@github.com:2ez4salt/fidbek-ios.git`
+2. Enter: `git@github.com:Saltware-Tech/fidbek-ios.git`
 3. Select version `0.0.1`
 4. Add product `FidbekSDK`
 
