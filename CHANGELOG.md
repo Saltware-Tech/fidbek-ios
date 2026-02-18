@@ -1,3 +1,8 @@
+## 0.1.5
+
+- Updated iOS XCFramework distribution from native source `0.1.5`.
+- Aligned Swift package distribution version to `0.1.5`.
+
 ## 0.1.1
 
 - Restored automatic screenshot capture before presenting feedback flow.
