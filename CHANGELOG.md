@@ -1,3 +1,9 @@
+## 0.2.0
+
+- Updated iOS XCFramework distribution from native source `0.2.0`.
+- Added iOS localization resource bundle packaging (`en`, `tr`) for SwiftPM distribution.
+- Includes issue frequency selector, native shake handling updates, and delivery reliability improvements.
+
 ## 0.1.5
 
 - Updated iOS XCFramework distribution from native source `0.1.5`.

@@ -4,15 +4,15 @@ Binary Swift Package distribution.
 
 ## Version
 
-`0.1.5`
+`0.2.0`
 
 ## Install (SPM)
 
 In Xcode:
 
 1. `File > Add Package Dependencies...`
-2. Enter: `git@github.com:Saltware-Tech/fidbek-ios.git`
-3. Select version `0.1.5`
+2. Enter: `https://github.com/Saltware-Tech/fidbek-ios.git`
+3. Select version `0.2.0`
 4. Add product `FidbekSDK`
 
 ## Usage
@@ -30,8 +30,8 @@ Fidbek.shared.present()
 
 ## Notes
 
-- API is simplified in `0.1.x`.
-- Fixed backend endpoint is now internal: `https://api.fidbek.dev/v1/sdk/reports`.
-- `baseURL`, `reportPath`, and `autoAttachScreenshot` are removed from public configure API.
-- Automatic screenshot capture on open/present flow is restored in `0.1.1`.
-- Current release line: `0.1.5`.
+- API remains `configure`, `present`, and `stop`.
+- Fixed backend endpoint is internal: `https://api.fidbek.dev/v1/sdk/reports`.
+- Current release line: `0.2.0`.
+- Includes bundled localization resources (`en`, `tr`) with English fallback.
+- Includes issue frequency selection and reliability improvements from native source `0.2.0`.

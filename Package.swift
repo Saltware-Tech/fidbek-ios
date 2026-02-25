@@ -9,13 +9,20 @@ let package = Package(
     products: [
         .library(
             name: "FidbekSDK",
-            targets: ["FidbekSDK"]
+            targets: ["FidbekSDK", "FidbekSDKResourcesSupport"]
         )
     ],
     targets: [
         .binaryTarget(
             name: "FidbekSDK",
             path: "Artifacts/FidbekSDK.xcframework"
+        ),
+        .target(
+            name: "FidbekSDKResourcesSupport",
+            path: "Support/FidbekSDKResourcesSupport",
+            resources: [
+                .copy("FidbekSDKResources.bundle")
+            ]
         )
     ]
 )
