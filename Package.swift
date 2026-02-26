@@ -21,7 +21,7 @@ let package = Package(
             name: "FidbekSDKResourcesSupport",
             path: "Support/FidbekSDKResourcesSupport",
             resources: [
-                .copy("FidbekSDKResources.bundle")
+                .copy("FidbekSDK_FidbekSDK.bundle")
             ]
         )
     ]

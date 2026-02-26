@@ -1,3 +1,8 @@
+## 0.2.1
+
+- Fixed SwiftPM resource bundle naming mismatch that caused runtime crash on present.
+- Resource bundle is now packaged as `FidbekSDK_FidbekSDK.bundle` as expected by binary accessor.
+
 ## 0.2.0
 
 - Updated iOS XCFramework distribution from native source `0.2.0`.
